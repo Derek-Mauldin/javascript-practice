@@ -30,12 +30,12 @@
 		<p id="p2">
 			When they gave him the job, they gave him a gun. The Deliverator never deals in cash, but someone might come after him anyway -- might want his car, or his cargo. The gun is tiny, acm-styled, lightweight, the kind of gun a fashion designer would carry; it fires teensy darts that fly at five times the velocity of an SR-71 spy plane, and when you get done using it, you have to plug it into the cigarette lighter, because it runs on electricity.
 		</p>
-		<a class="btn btn-primary" id="popUp" onclick="popUp();">Find and Replace a word in the above paragraph</a>
+		<a class="btn btn-primary" id="button" onclick="openFindAndReplace();">Find and Replace a word in the above paragraph</a>
 		<div id="FindAndReplace">
-			<h3>Find and Replace</h3>
-			<input type="text" id="find" value="Word to be replaced">
-			<input type="text" id="replace" value="Replace it with...">
-			<div id="closePopUp" onclick="closeFindAndReplace();">Close</div>
+			<input type="text" id="find" placeholder="Word to be replaced">
+			<input type="text" id="replace" placeholder="Replace it with..." >
+			<button type="button" class="btn btn-danger btn-sm" onclick="findAndReplace();">Execute</button>
+			<button type="button" class="btn btn-default btn-sm" onclick="closeFindAndReplace();">Close</button>
 		</div>
 		<br />
 		<br />
