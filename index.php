@@ -34,6 +34,7 @@
 					<h2>Paragraph 1</h2>
 
 					<p id="p1">The Deliverator belongs to an elite order, a hallowed subcategory. He ' s got esprit up to here. Right now, he is preparing to carry out his third mission of the night. His uniform is black as activated charcoal, filtering the very light out of the air. A bullet will bounce off its arachnofiber weave like a wren hitting a patio door, but excess perspiration wafts through it like a breeze through a freshly napalmed forest, Where his body has bony extremities, the suit has sintered armorgel: feels like gritty jello, protects like a stack of telephone books.</p>
+
 					<div class="container">
 						<button type="button" class="btn btn-success" id="capButton" onclick="capitalize();">Capitzilize</button>
 						<button type="button" class="btn btn-warning" id="lowCaseButton" onclick="unCap();">Uncapitzilize</button>
