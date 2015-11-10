@@ -5,3 +5,25 @@
 #button {
 	margin-bottom: 5px;
 }
+
+#restoreButton {
+	display: none;
+}
+
+/* store class will simply contain content for later use, never to be displayed */
+.store {
+	display: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+header {
+	background-color: black;
+	color: lightgrey;
+}
+
+body {
+	background-color: lightgrey;
+}
